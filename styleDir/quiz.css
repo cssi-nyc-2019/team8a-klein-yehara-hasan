@@ -1,0 +1,80 @@
+
+#quiz-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+@media only screen and (max-width: 800px) {
+  #quiz-wrapper {
+    flex-direction: column;
+  }
+}
+
+
+main {
+  text-align: center;
+}
+
+.question {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  color:#a305ff;
+  font-size: 18px;
+}
+
+input{
+  align-self: center;
+}
+
+body {
+  background-color:white;
+}
+
+
+h1 {
+  background-color: #0575ff;
+}
+
+#responseContainer {
+  margin-left: 50%;
+  margin-right: 50%;
+  align-content: center;
+  width:70px;
+  height:30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
